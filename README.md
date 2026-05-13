@@ -1,3 +1,4 @@
+```python
 full_dot = '●'
 empty_dot = '○'
 def create_character(name, strength, intelligence, charisma):
@@ -19,3 +20,5 @@ def create_character(name, strength, intelligence, charisma):
         return'The character should start with 7 points'
     
     return f'{name}\nSTR {full_dot * strength}{empty_dot * (10 - strength)}\nINT {full_dot * intelligence}{empty_dot * (10 - intelligence)}\nCHA {full_dot * charisma}{empty_dot * (10 - charisma)}'
+
+````
